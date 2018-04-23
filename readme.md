@@ -14,7 +14,7 @@
 ## 要求：
 
 1. 编写测试检查分数计算结果的正确性
-
+（直接在界面上进行测试的，分数显示在试卷上的分数栏里）
 ## 学习资源:
 
 1. [W3School HTML教程](http://www.w3school.com.cn/html/index.asp)

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="main/main.js"></script>
+</head>
+
+<body>
+<div id = "header">
+	<h1>统一建模语言理论测试</h1>
+</div>
+<div id = "info">
+	<table width="778" border="0">
+	  <tr>
+	    <td width="80">考试科目：</td>
+	    <td width="174">统一建模语言</td>
+	    <td width="48">时间：</td>
+	    <td width="184">100分钟</td>
+	    <td width="48">得分：</td>
+	    <td width="218" id="grade"></td>
+	  </tr>
+	  <tr>
+	    <td>班级：</td>
+	    <td><input id="userClass" /></td>
+    	<td>学号：</td>
+	    <td><input id="userId"/></td>
+	    <td>姓名：</td>
+	    <td><input id="userName"/></td>
+	  </tr>
+	</table>
+</div>
+<div id = "first">
+	<h2>一、填空题（每题5分，共20分）</h2>
+	<p>1.UML的中文全称是：<input id="res11"/></p>
+	<p>2.对象最突出的特征是：<input id="res121"/>&nbsp;<input id="res122"/>&nbsp;<input id="res123"/></p>
+</div>
+<div id = "second">
+
+	<h2>二、选择题（每题10分，共20分）</h2>
+	<form>
+		<p>1.UML与软件工程的关系是：	</p>
+		<input type='radio' name='option21' value="A"/>
+		(A)UML就是软件工程
+	 	<br/>
+	  	<input type='radio' name='option21' value="B"/>
+	  	(B)UML参与到软件工程中软件开发过程的几个阶段
+	   	<br/>
+	  	<input type='radio' name='option21' value="C"/>
+	  	(C)UML与软件工程无关
+		<br/>
+		<input type='radio' name='option21' value="D"/>
+	  	(D)UML是软件工程的一部分
+	</p>
+
+	<p>2.Java语言支持：</p>
+		<input type='radio' name='option22' value="A"/>
+		(A)单继承
+		<br/>
+      	<input type='radio' name='option22' value="B"/>
+      	(B)多继承
+		<br/>
+      	<input type='radio' name='option22' value="C"/>
+    	(C)单继承和多继承都支持
+		<br/>
+      	<input type='radio' name='option22' value="D"/>
+      	(D)单继承和多继承都不支持
+	</p>
+	</form>
+</div>
+<div id = "third">
+	<h2>三、多选题（每题10分，共20分）</h2>
+	<p>1.用户的粒度分为以下哪三种：</p>
+	<p>
+	  <input type='checkbox' name='option31' value="A"/>
+		(A)概述级
+		<br/>
+      <input type='checkbox' name='option31' value="B"/>
+      (B)需求级
+		<br/>
+      <input type='checkbox' name='option31' value="C"/>
+    	(C)用户目标级
+		<br/>
+      <input type='checkbox' name='option31' value="D"/>
+      (D)子功能级
+	</p>
+	  
+	<p>2.类图由以下哪三部分组成：</p>
+	<p>
+	  <input type='checkbox' name='option32' value="A"/>
+		(A)名称(Name)
+		<br/>
+      <input type='checkbox' name='option32' value="B"/>
+      (B)属性(Attribute)
+		<br/>
+      <input type='checkbox' name='option32' value="C"/>
+    (C)操作(Operation)
+		<br/>
+      <input type='checkbox' name='option32' value="D"/>
+      (D)方法(Function)
+	</p>
+</div>
+<div id = "fourth">
+	<h2>四、判断题（每题10分，共20分）</h2>
+	<p>1.用例图只是用于和客户交流和沟通的，用于确定需求。
+		<input type='radio' id='res41' value='right' name='option41'/>√<input type='radio' value='wrong' name='option41'/>×</p>
+	<p>2.在状态图中，终止状态在一个状态图中允许有任意多个。
+	  <input type='radio' id='res42' value='right' name='option42'/>√<input type='radio' value='wrong' name='option42'/>×
+	</p>
+</div>
+<div id = "fifth">
+	<h2>五、简答题（每题20分，共20分）</h2>
+	<p>1.简述什么是模型以及模型的表现形式？</p>
+	<textarea id="res51" name="textarea" cols="100" rows="5"></textarea>
+</div>
+
+<div>
+	<br/>
+	<button onclick="calculateGrade()" >计算分数</button>
+
+</div>
+</body>
+</html>
